@@ -5,5 +5,10 @@
 
     <bean id="car" class="SpringDemo1_CoreSpring.SpringDemo1.Car">
         <property name="model" value="abc" />
+        <property name="tyre" ref="tyre" />
     </bean>
+
+    <bean id="tyre" class="SpringDemo1_CoreSpring.SpringDemo1.Tyre">
+    </bean>
+
 </beans>
