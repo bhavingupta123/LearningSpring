@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>SpringDemo2ConstructorBased</artifactId>
+  <artifactId>SpringDemo3ConstructorBasedXMLAutowire</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>SpringDemo2ConstructorBased</name>
+  <name>SpringDemo3ConstructorBasedXMLAutowire</name>
   <url>http://maven.apache.org</url>
 
   <properties>
