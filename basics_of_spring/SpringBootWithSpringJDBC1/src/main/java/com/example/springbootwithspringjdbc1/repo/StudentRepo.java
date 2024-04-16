@@ -23,7 +23,10 @@ public class StudentRepo {
     }
 
     public void save(Student student){
-        System.out.println("in repo save method");
+        String sql = "insert into student (rollno, name, marks) values (?, ?, ?)";
+        int rows = jdbcTemplate.update(sql, student.getRollNo(),student.getName(), student.getMarks());
+
+        System.out.println("in repo save method :" + rows);
     }
 
     public List<Student> findAll(){
