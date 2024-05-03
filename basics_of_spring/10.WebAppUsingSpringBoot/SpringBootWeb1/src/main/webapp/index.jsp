@@ -1,0 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JSP - Hello World Tutorial - Programmer Gate</title>
+</head>
+<body>
+<h1> Result is : ${message}</h1>
+</body>
+</html>
